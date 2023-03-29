@@ -26,6 +26,6 @@
           {{ $movie->vote }}
         </span>
       </p>
-      <a href="#" class="card-link">Movie detail</a>
+      <a href="{{ route('detail', ['index' => $movie->id]) }}" class="card-link">Movie detail</a>
     </div>
 </div>

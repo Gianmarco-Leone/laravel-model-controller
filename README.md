@@ -27,8 +27,14 @@
 6.  Creazione di un controller che gestirà la rotta `/`
 7.  All'interno della funzione index() del controller, recuperare tutti i film dal database e passarli alla view, che quindi li visualizzerà a schermo, tramite delle card.
 
-## Bonus:
+## Bonus 1:
 
 Rifinire dettagli con Sass.
 
 ![Screenshot](./public/img/Screenshot_2.png)
+
+## Bonus 2:
+
+Aggiunta pagina con dettaglio del singolo film, con bottone per tornare alla lista di tutti i film.
+
+![Screenshot](./public/img/Screenshot_1.png)
