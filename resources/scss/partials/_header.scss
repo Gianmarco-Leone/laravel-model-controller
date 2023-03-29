@@ -1,0 +1,13 @@
+header {
+    nav.navbar {
+        .container {
+            a {
+                color: #aaa;
+
+                &.active {
+                    color: #efefef;
+                }
+            }
+        }
+    }
+}

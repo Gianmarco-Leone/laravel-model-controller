@@ -10,8 +10,19 @@
      @vite('resources/js/app.js')
 </head>
 <body>
-    <main>
+
+    {{-- HEADER --}}
+    <header>
+        @include('partials._navbar')
+    </header>
+
+    {{-- MAIN --}}
+    <main class="my-auto">
         @yield('content')
     </main>
+
+    {{-- FOOTER --}}
+    @include('partials._footer')
+
 </body>
 </html>

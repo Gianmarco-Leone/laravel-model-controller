@@ -5,7 +5,7 @@
 
 > Interazione con il database utilizzando l'ORM di Laravel.
 
-![Screenshot](./public/img/Screenshot_1.png)
+![Screenshot](./public/img/Screenshot_3.png)
 
 ## Tecnologie e Librerie:
 
@@ -27,5 +27,8 @@
 6.  Creazione di un controller che gestirà la rotta `/`
 7.  All'interno della funzione index() del controller, recuperare tutti i film dal database e passarli alla view, che quindi li visualizzerà a schermo, tramite delle card.
 
-<!-- BONUS:
-Stilare il layout nei dettagli con Sass -->
+## Bonus:
+
+Rifinire dettagli con Sass.
+
+![Screenshot](./public/img/Screenshot_2.png)

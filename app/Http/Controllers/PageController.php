@@ -7,10 +7,14 @@ use App\Models\Movie;
 
 class PageController extends Controller
 {
+    public function homepage() {
+        return view('homepage');
+    }
+
     public function index() {
 
         $movies = Movie::all();
 
-        return view('homepage', compact('movies'));
+        return view('movies', compact('movies'));
     }
 }
