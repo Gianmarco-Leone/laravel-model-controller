@@ -26,6 +26,8 @@
           {{ $movie->vote }}
         </span>
       </p>
+      @if ((Request::url() === 'http://127.0.0.1:8000/movies'))
       <a href="{{ route('detail', ['index' => $movie->id]) }}" class="card-link">Movie detail</a>
+      @endif
     </div>
 </div>
