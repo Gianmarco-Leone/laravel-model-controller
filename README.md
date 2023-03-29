@@ -5,6 +5,8 @@
 
 > Interazione con il database utilizzando l'ORM di Laravel.
 
+![Screenshot](./public/img/Screenshot_1.png)
+
 ## Tecnologie e Librerie:
 
 -   Html
