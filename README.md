@@ -24,7 +24,7 @@
 3.  Importare nel database una table movies predefinita
 4.  Cambiare credenziali per il database nel file .env
 5.  Creadi zione un model Movie
-6.  Creazione di un controller che gestirà la rotta
+6.  Creazione di un controller che gestirà la rotta `/`
 7.  All'interno della funzione index() del controller, recuperare tutti i film dal database e passarli alla view, che quindi li visualizzerà a schermo, tramite delle card.
 
 <!-- BONUS:
