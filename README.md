@@ -11,7 +11,7 @@
 
 -   Html
 -   Css
-<!-- - Sass  -->
+-   Sass
 -   Bootstrap
 -   Php
 -   Laravel
